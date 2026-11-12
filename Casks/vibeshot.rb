@@ -5,6 +5,6 @@ cask "vibeshot" do
   name "VibeShot"
   desc "Screenshot and markup tool"
   homepage "https://github.com/cjstremick/VibeShotMac"
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
   app "VibeShot.app"
 end
